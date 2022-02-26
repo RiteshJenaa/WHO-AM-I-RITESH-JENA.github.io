@@ -23,13 +23,13 @@
         border: 2px solid green;
       }
       .menu {
-        width: 25%;
+        width: 30%;
         float: left;
         padding: 15px;
         border: 4px solid green;
       }
       .main {
-        width: 75%;
+        width: 70%;
         float: left;
         padding: 15px;
         border: 4px solid green;
@@ -39,9 +39,32 @@
 
   </head>
 
+  <br>
+  <select name="clr" onchange="document.fgColor=this.options[this.selectedIndex].value" size="2">
+      <br>
+      <option value="red">red
+          <option value="black">black
+              <option value="lightyellow">light yellow
+                  <option value="orange">orange
+                      <option value="lightblue">light blue
+                          <option value="white">white</option>
+
+  </select>&nbsp;&nbsp;Text Color
+
+  <select name="clr" onchange="document.bgColor=this.options[this.selectedIndex].value" size="2">
+    <br>
+    <option value="red">red
+        <option value="cyan">cyan
+            <option value="lightyellow">light yellow
+                <option value="orange">orange
+                    <option value="lightblue">light blue
+                        <option value="white">white</option>
+
+  </select>&nbsp;&nbsp;Background Color
+
   <body>
-    <div><header class="header"> <h1 style="font-size:4vw"> About myself! </h1></header></div>
-    <div><aside class="header"><h2 style="font-size:3vw"> Crucial aspects of my Life </h2></aside></div>
+    <div><header class="header"> <h1 style="font-size:2.5vw"> About myself! </h1></header></div>
+    <div><aside class="header"><h2 style="font-size:1.5vw"> Crucial aspects of my Life </h2></aside></div>
     <div><nav class="menu"><h1> What I want to be in my future? <section>
       <br> <!-- <br> adds one line of space-->
       <!-- <img> is self closing-->
